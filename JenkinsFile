@@ -1,5 +1,5 @@
 pipeline{
-    agent { label 'jenkin-agent1' }  
+    agent { label 'Agent02_AsService' }  
     
     stages{
         stage('stage 1'){
