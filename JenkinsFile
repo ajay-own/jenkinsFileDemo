@@ -5,6 +5,7 @@ pipeline{
         stage('stage 1'){
             steps{
                 echo 'step 1.1'
+                echo "Running on agent: ${env.NODE_NAME}"
             }
         }
         stage('stage 2'){
